@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+.content1 .bank_name{
+    display: flex;
+    align-items: center;
+
+}
+.container1{
+    height: 700px;
+   
+    width: 100%;
+}
+.container1 .content1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around; 
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+#tick{
+    width: 200px;
+    animation-name: tick;
+    animation-duration:3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes tick{
+    0%{transform: scale(1,1);}
+    50%{transform: scale(1.5,1.5);}
+}
+#name_nb{
+    width: 50px; 
+}
+h2 {
+    font-size: 40px;
+}
+
+.back_home{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
