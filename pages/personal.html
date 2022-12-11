@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund Transfer</title>
+    <link rel="shortcut icon" href="../assets/img/tab_logo.png">
+    <link rel="stylesheet" href="../assets/css/personal.css">
+    <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+
+<body>
+    <main>
+        <div>
+            <div class="header">
+                <div class="content1">
+                    <a href="home.html"> <img src="../assets/img/home_logo.png" alt="logo"></a>
+                </div>
+
+                <div class="nav">
+                    <a class="button " href="../pages/account.html">Account</a>
+                    <a class="button" href="../pages/fund.html">Fund Transfer</a>
+                    <a class="button" href="../pages/balance.html">Balance Enquiry</a>
+                    <a class="button" href="../pages/history.html">History</a>
+                    <a class="button button1" href="../pages/loan.html">Loans</a>
+                    <a class="button" href="../pages/other.html">Other Feature</a>
+                    <a class="button " href="../pages/login.html">Log Out</a>
+                </div>
+            </div>
+
+            <div class="content2">
+                <span>Loan</span>
+                <span>24/7 Personal Loan</span>
+            </div>
+
+            <div class="container1">
+
+                <div class="full_form">
+
+                    <div class="selecter">
+
+                        <span>Name</span>
+                        <span>Email.Id</span>
+                        <span>mobile Number</span>
+                        <span>Pin code</span>
+                        <span>Salary</span>
+                        <span>Occupation</span>
+                        <span>Address</span>
+
+                    </div>
+
+                    <div class="value">
+
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                        <input type="email" id="email" name="email" placeholder="Email ID">
+                        <input type="number" id="mb_no" name="mb_no" min="1" required placeholder="Mobile number">
+                        <input type="number" id="pin_code" name="pin_code" required min="1" max="8"
+                            placeholder="pin_code">
+                        <input type="number" id="salary" name="salary" min="1" placeholder="per month">
+                        <div class="salary">
+                            <input type="radio" id="salary" name="salary">Salaried
+                            <input type="radio" id="salary" name="salary">Non-Salaried
+                        </div>
+
+                        <input type="text" name="address" id="address" placeholder="please fill full address">
+
+                    </div>
+                </div>
+
+                <button>Submit</button>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
