@@ -1,6 +1,5 @@
 body{
     background: linear-gradient(to top right,#C5D8D1,#EADCD7);
-    /* height: 1073px; */
     height: 1200px;
     font-family: sans-serif;
 }
@@ -47,17 +46,9 @@ input{
     
 }
 .history{
-    /* margin: 10px; */
     border-top: 2px dotted black;
     width: 80%;
     margin: 20px auto;
 }
-/* .red{
-    background-color: #EADCD7;
-}
-
-.green{
-    background-color: #C5D8D1;
-} */
 
 
