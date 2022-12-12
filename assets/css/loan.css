@@ -1,5 +1,5 @@
 .container1{
-    height: 700px;
+    height: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -9,8 +9,8 @@
 }
 .container1 .personal , .home_loan , .gold {
 
-    height: 500px;
-    width: 400px;
+    height: 408px;
+    width: 612px;
     border-radius: 20px;
     box-shadow: 10px 10px 30px black;
     /* margin: 20px; */
