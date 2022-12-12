@@ -35,43 +35,51 @@
                 <span>24/7 Personal Loan</span>
             </div>
 
-            <div class="container1">
+            <form action="loan.html">
 
-                <div class="full_form">
+                <div class="container1">
 
-                    <div class="selecter">
+                    <div class="full_form">
 
-                        <span>Name</span>
-                        <span>Email.Id</span>
-                        <span>mobile Number</span>
-                        <span>Pin code</span>
-                        <span>Salary</span>
-                        <span>Occupation</span>
-                        <span>Address</span>
+                        <div class="selecter">
 
-                    </div>
+                            <span>Name</span>
+                            <span>Email.Id</span>
+                            <span>mobile Number</span>
+                            <span>Pin code</span>
+                            <span>Salary</span>
+                            <span>Occupation</span>
+                            <span>Address</span>
 
-                    <div class="value">
-
-                        <input type="text" id="name" name="name" placeholder="Enter your name">
-                        <input type="email" id="email" name="email" placeholder="Email ID">
-                        <input type="number" id="mb_no" name="mb_no" min="1" required placeholder="Mobile number">
-                        <input type="number" id="pin_code" name="pin_code" required min="1" max="8"
-                            placeholder="pin_code">
-                        <input type="number" id="salary" name="salary" min="1" placeholder="per month">
-                        <div class="salary">
-                            <input type="radio" id="salary" name="salary">Salaried
-                            <input type="radio" id="salary" name="salary">Non-Salaried
                         </div>
 
-                        <input type="text" name="address" id="address" placeholder="please fill full address">
+                        <div class="value">
+
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            <input type="email" id="email" name="email" placeholder="Email ID" required>
+                            <input type="number" id="mb_no" name="mb_no" min="1" required placeholder="Mobile number" required>
+                            <input type="number" id="pin_code" name="pin_code" min="1" placeholder="pin code" required>
+                            <input type="number" id="salary" name="salary" min="1" placeholder="per month" required>
+                            <div class="salary">
+                                <input type="radio" id="salary" name="salary">Salaried <br>
+                                <input type="radio" id="salary" name="salary">Non-Salaried
+                            </div>
+
+                            <input type="text" name="address" id="address" placeholder="please fill full address " required>
+
+                        </div>
 
                     </div>
+
+                    <div class="end_button">
+                        <button id="back">Submit</button>
+                        <a id="back" href="loan.html">Back</a>
+                    </div>
+
+
                 </div>
 
-                <button>Submit</button>
-
-            </div>
+            </form>
         </div>
     </main>
 </body>
