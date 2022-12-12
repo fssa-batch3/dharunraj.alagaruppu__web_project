@@ -39,7 +39,6 @@
     font-weight: 1000;
     font-size: large;
     border-radius: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
 }
 
 .button:hover,
@@ -51,7 +50,6 @@
     box-sizing: border-box;
     position: relative;
     bottom: 10px;
-    font-family: Verdana;
 }
 
 .content2 {
@@ -83,7 +81,7 @@
 
 #back {
     box-sizing: border-box;
-    height: 40px;
+    height: 50px;
     width: 200px;
     text-decoration: none;
     border: 1px solid black;
@@ -99,8 +97,8 @@
 
 #back:hover {
     background-color: #f08686;
-    box-shadow: 1px 5px 10px black;
-    height: 40px;
+    box-shadow: 10px 5px 10px black;
+    height: 50px;
     box-sizing: border-box;
     color: white;
 }
@@ -141,8 +139,10 @@ footer .about{
     width: 100%;
 }
 
-footer li {
-    list-style:  none;
+.footer_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 footer #icon{

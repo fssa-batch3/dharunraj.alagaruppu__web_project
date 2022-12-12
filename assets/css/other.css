@@ -1,0 +1,13 @@
+.container1 {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1 .mobile , .bill , .scanner {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px black;
+}
