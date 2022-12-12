@@ -11,3 +11,21 @@
     border-radius: 20px;
     box-shadow: 10px 10px 30px black;
 }
+
+.mobile{
+    background-image: url('../img/');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bill{
+    background-image: url('../img/');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mobile{
+    background-image: url('../img/');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
