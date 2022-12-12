@@ -9,9 +9,10 @@
 }
 .container1 .personal , .home_loan , .education {
 
-    height: 200px;
-    width: 600px;
+    height: 500px;
+    width: 400px;
     border-radius: 20px;
     box-shadow: 10px 10px 30px black;
     /* margin: 20px; */
 }
+
