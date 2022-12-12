@@ -34,60 +34,65 @@
                 <span>Fund Transfer</span>
             </div>
 
-            <div class="full_fund">
-                
-                <div class="container1">
+            <form action="balance.html">
 
-                    <div class="full_form">
+                <div class="full_fund">
 
-                        <div class="selecter">
-                            <span>From account number</span>
-                            <span>Benificiary account</span>
-                            <span>Benificiary IFSC</span>
-                            <span>Account type</span>
-                            <span>Transfer amount</span>
-                            <span>remarks</span>
-                            <!-- <span>Transfer</span> -->
-                            <!-- <button>Submit</button> -->
-                        </div>
+                    <div class="container1">
 
-                        <div class="value">
-                            <input type="text" id="from" name="from" required placeholder="Enter your A.C number">
-                            <input type="text" id="to" name="to" required placeholder="To A.C number">
-                            <input type="text" id="ifsc" name="ifsc" required placeholder="IFSC number">
-                            <select>
-                                <option value="savings">Savings account</option>
-                                <option value="current">Current account</option>
-                                <option value="loan">Loan account</option>
-                            </select>
-                            <input type="number" id="amount" name="amount" required min="1" placeholder="Amount">
-                            <input type="text" id="remark" name="remark">
+                        <div class="full_form">
 
-                            <!-- <input type="radio" id="pay" name="pay">Pay now
+                            <div class="selecter">
+                                <span>From account number</span>
+                                <span>Benificiary account</span>
+                                <span>Benificiary IFSC</span>
+                                <span>Account type</span>
+                                <span>Transfer amount</span>
+                                <span>remarks</span>
+                                <!-- <span>Transfer</span> -->
+                                <!-- <button>Submit</button> -->
+                            </div>
+
+                            <div class="value">
+                                <input type="text" id="from" name="from" required placeholder="Enter your A.C number">
+                                <input type="text" id="to" name="to" required placeholder="To A.C number">
+                                <input type="text" id="ifsc" name="ifsc" required placeholder="IFSC number">
+                                <select>
+                                    <option value="savings">Savings account</option>
+                                    <option value="current">Current account</option>
+                                    <option value="loan">Loan account</option>
+                                </select>
+                                <input type="number" id="amount" name="amount" required min="1" placeholder="Amount">
+                                <input type="text" id="remark" name="remark" required >
+
+                                <!-- <input type="radio" id="pay" name="pay">Pay now
                         <input type="radio" id="pay" name="pay">Schedule payment -->
 
+                            </div>
+
                         </div>
 
-                    </div>
-
-                    <div class="container2">
-                        <span>Transfer</span>
-                        <div>
-                            <input type="radio" id="radio" name="pay"> Pay Now <br>
-                            <input type="radio" id="radio" name="pay">
-                            Schedule <br><input type="datetime-local" id="radio" name="pay">
+                        <div class="container2">
+                            <span>Transfer</span>
+                            <div>
+                                <input type="radio" id="radio" name="pay"> Pay Now <br>
+                                <input type="radio" id="radio" name="pay">
+                                Schedule <br><input type="datetime-local" id="radio" name="pay">
+                            </div>
                         </div>
-                    </div>
 
-                    <div id="button">
-                        <a href="../pages/balance.html">Confirm</a>
-                        <a href="../pages/home.html">Back</a>
+                        <div id="button">
+                            <button>Confirm</button>
+                            <a href="../pages/home.html">Back</a>
+
+                        </div>
+                        <!-- <button>Submit</button> -->
 
                     </div>
 
                 </div>
 
-            </div>
+            </form>
 
         </div>
 
