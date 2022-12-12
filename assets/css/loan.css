@@ -7,7 +7,7 @@
     border: 2px solid black;
     /* align-content: space-around; */
 }
-.container1 .personal , .home_loan , .education {
+.container1 .personal , .home_loan , .gold {
 
     height: 500px;
     width: 400px;
@@ -16,3 +16,20 @@
     /* margin: 20px; */
 }
 
+.container1 .personal{
+    background-image: url('../img/personal_loan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 .home_loan{
+    background-image: url('../img/home_loan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 .gold{
+    background-image: url('../img/gold_loan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
