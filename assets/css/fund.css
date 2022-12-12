@@ -62,13 +62,15 @@ input,select {
     text-align: center;
 }
 
-.container1 a {
+.container1 a , button{
     text-decoration: none;
     padding: 15px;
     border-radius: 10px;
     border: 1px solid black;
     width: 150px;
     color: black;
+    background-color: #e7e1dc;
+    font-size: 25px;
 
 }
 

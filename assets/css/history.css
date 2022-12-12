@@ -4,6 +4,10 @@ body{
     height: 1200px;
     font-family: sans-serif;
 }
+
+.full_history{
+    height: 1280px;
+}
 .search_bar{
     display: flex;
     justify-content: center;

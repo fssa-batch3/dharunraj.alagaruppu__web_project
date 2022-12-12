@@ -64,6 +64,7 @@
     animation-name: change;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    font-size: 30px;
 }
 
 @keyframes change {
