@@ -4,26 +4,15 @@
 }
 
 body{
-    background-image: url('../img/account_background.jpg');
+    /* background-image: url('../img/account_background.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     font-family: cursive;
-    /* font-family: monospace; */
-}
-.account h2 {
-    margin-top: 30px;
-    font-size: 37px;
-    font-family: Arial;
-    text-shadow: -4px -2px black;
-    color: #f08686;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
+    background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
 }
 
 .container1 {
-    height: 800px;
+    height: 600px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -56,11 +45,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 5px 5px 50px rgb(7, 8, 8);
+    box-shadow: 5px 5px 20px rgb(7, 8, 8);
     border-radius: 40px;
     font-size: 20px;
-    /* background-color: rgb(253, 245, 245); */
-
 }
 
 .content4 .selecter {
@@ -73,6 +60,17 @@ body{
     align-items: flex-end;
     justify-content: center;
     border-radius: 40px;
-    box-shadow: 5px 5px 50px rgb(7, 8, 8);
+    box-shadow: 5px 5px 20px rgb(7, 8, 8);
+}
+
+.heading{
+    font-size: 45px;
+    text-shadow: -1px -2px black;
+    color: #f08686;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    margin: 30px 50px 0px 0px;
 }
 

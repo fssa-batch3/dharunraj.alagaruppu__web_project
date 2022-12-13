@@ -14,6 +14,7 @@
 <body>
     <main>
         <div>
+            <!-- *********  Header have a bank icon , navication bar . on the web page its show a top of the page  *******  -->
             <div class="header">
                 <div class="content1">
                     <a href="home.html"> <img src="../assets/img/home_logo.png" alt="logo"></a>
@@ -29,10 +30,13 @@
                     <a class="button " href="../pages/login.html">Log Out</a>
                 </div>
             </div>
+            <!-- **********  header end  ************ -->
 
             <div class="content2">
                 <span>Fund Transfer</span>
             </div>
+
+            <!-- Form is start. It is have a selecter and value part. It is make a form type -->
 
             <form action="balance.html">
 
@@ -43,14 +47,12 @@
                         <div class="full_form">
 
                             <div class="selecter">
-                                <span>From account number</span>
-                                <span>Benificiary account</span>
-                                <span>Benificiary IFSC</span>
-                                <span>Account type</span>
-                                <span>Transfer amount</span>
-                                <span>Remarks</span>
-                                <!-- <span>Transfer</span> -->
-                                <!-- <button>Submit</button> -->
+                                <label for="from"> From Account Number </label>
+                                <label for="to"> Benificiary Account </label>
+                                <label for="ifsc"> Benificiary IFSC </label>
+                                <label for="type"> Account type </label>
+                                <label for="amount"> Transfer Amount </label>
+                                <label for="remark"> Remarks </label>
                             </div>
 
                             <div class="value">
@@ -63,28 +65,24 @@
                                     <option value="loan">Loan account</option>
                                 </select>
                                 <input type="number" id="amount" name="amount" required min="1" placeholder="Amount">
-                                <input type="text" id="remark" name="remark" >
-
-                                <!-- <input type="radio" id="pay" name="pay">Pay now
-                        <input type="radio" id="pay" name="pay">Schedule payment -->
+                                <input type="text" id="remark" name="remark" placeholder="Small notes">
 
                             </div>
 
                         </div>
 
                         <div class="container2">
-                            <span>Transfer</span>
+                            <label for="transfer">Time to Transfer </label>
                             <div>
                                 <input type="radio" id="radio" name="pay"> Pay Now <br>
-                                <input type="radio" id="radio" name="pay">
-                                Schedule <br><input type="datetime-local" id="check" name="check">
+                                <input type="radio" id="radio" name="pay">Schedule <br>
+                                <input type="datetime-local" id="check" name="check">
                             </div>
                         </div>
 
                         <div id="button">
-                            <button>Confirm</button>
-                            <a href="../pages/home.html">Back</a>
-
+                            <button id="back">Confirm</button>
+                            <a id="back" href="../pages/home.html">Back</a>
                         </div>
                         <!-- <button>Submit</button> -->
 
@@ -94,10 +92,12 @@
 
             </form>
 
+            <!-- ******** form end *************** -->
         </div>
 
     </main>
 
+    <!-- footer start . footer have a about us , keep in touch , bank icon , some top reson for choosing netbliz -->
     <footer>
 
         <div class="footer_content1">
@@ -173,6 +173,7 @@
 
 
     </footer>
+    <!-- ****************** footer end ****************** -->
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
 }
 .content1 .bank_name{
     display: flex;
@@ -7,8 +8,7 @@ body{
 
 }
 .container1{
-    height: 700px;
-   
+    height: 750px;
     width: 100%;
 }
 .container1 .content1{
@@ -48,4 +48,8 @@ h2 {
 }
 p{
     font-size: 25px;
+}
+
+#back{
+    margin: 50px auto ;
 }

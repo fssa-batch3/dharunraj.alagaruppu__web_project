@@ -7,11 +7,12 @@ body {
 }
 
 .full_fund {
-    background-image: url('../img/blue-yellow-watercolor-patterned-mobile-phone-wallpaper-template_53876-97597.webp');
-    background-repeat: no-repeat;
-    background-size: 1500px 1160px;
-    color: black;
-    height: 1150px;
+    /* background-image: url('../img/blue-yellow-watercolor-patterned-mobile-phone-wallpaper-template_53876-97597.webp');
+    background-repeat: no-repeat; */
+    background: linear-gradient(to top right,#C5D8D1,#EADCD7);
+    /* background-size: 1500px 1160px; */
+    /* color: black; */
+    height: 1100px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -19,7 +20,7 @@ body {
 }
 
 .container1 {
-    color: black;
+    /* color: black; */
     background-blend-mode: overlay;
     height: 900px;
     margin: 0px 400px;
@@ -29,34 +30,37 @@ body {
     align-items: center;
     align-content: center;
     border-radius: 100px;
-    box-shadow: 5px 5px 15px;
-    /* border: 2px solid red; */
+    box-shadow: 5px 5px 15px black;
+    /* border: 2px solid #eb0d0d; */
 
 }
 
 .container1 .full_form {
-    width: 60%;
+    width: 65%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
-    height: 600px;
+    height: 580px;
+    /* border: 2px solid red; */
     margin: 50px auto 0px auto;
 }
 
-.full_form .selecter,
-.value {
+.full_form .selecter, .value {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    /* border: 2px solid black; */
 }
 
 input,select {
     padding: 8px;
+    /* border: 1px solid black; */
+
 }
 
 #button {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -66,7 +70,6 @@ input,select {
     text-decoration: none;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid black;
     width: 150px;
     color: black;
     background-color: #e7e1dc;
@@ -75,7 +78,7 @@ input,select {
 }
 
 .container2 {
-    width: 60%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     margin-top: -20px;

@@ -1,18 +1,21 @@
+body{
+    background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
+}
 .container1{
     height: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* align-content: space-around; */
 }
 .container1 .personal , .home_loan , .gold {
 
     height: 408px;
     width: 612px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 30px black;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px black ;
     /* margin: 20px; */
 }
 
@@ -20,16 +23,38 @@
     background-image: url('../img/personal_loan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    /* color: #f01111;
+    color: rgb(7, 252, 7);
+    text-shadow: 2px -2px black; */
 }
 
 .container1 .home_loan{
     background-image: url('../img/home_loan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+    
 }
 
 .container1 .gold{
     background-image: url('../img/gold_loan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+    text-shadow: -2px 3px black;
+    
+    
+}
+
+.container1 a{
+    text-decoration: none;
+}
+.container1 h1{
+    height: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* border: 2px solid black; */
+    font-size: 50px;
+    
 }
