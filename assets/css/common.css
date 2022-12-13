@@ -14,6 +14,7 @@
     top: 0px;
     width: 100%;
     z-index: 5;
+    font-family: cursive;
 }
 
 .header img {
@@ -27,6 +28,7 @@
     align-items: center;
     justify-content: space-around;
     align-items: center;
+    font-family: cursive;
 }
 
 .button {
@@ -39,6 +41,7 @@
     font-weight: 1000;
     font-size: large;
     border-radius: 20px;
+    font-family: cursive;
 }
 
 .button:hover,
@@ -50,6 +53,7 @@
     box-sizing: border-box;
     position: relative;
     bottom: 10px;
+    font-family: sans-serif;
 }
 
 .content2 {
@@ -63,6 +67,7 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     font-size: 30px;
+    font-family: cursive;
 }
 
 @keyframes change {
