@@ -1,5 +1,6 @@
 body{
     background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
+    font-family: cursive;
 }
 .container1{
     height: 1200px;
@@ -23,9 +24,9 @@ body{
     background-image: url('../img/personal_loan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* color: #f01111;
-    color: rgb(7, 252, 7);
-    text-shadow: 2px -2px black; */
+    /* color: #b23f3f; */
+    color: rgb(60, 185, 60);
+    text-shadow: 2px -2px rgb(18, 18, 18);
 }
 
 .container1 .home_loan{
@@ -55,6 +56,5 @@ body{
     justify-content: center;
     align-items: flex-end;
     /* border: 2px solid black; */
-    font-size: 50px;
-    
+    font-size: 50px;  
 }

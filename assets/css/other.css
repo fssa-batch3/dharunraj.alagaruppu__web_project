@@ -7,31 +7,38 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    /* border-bottom: 1px solid white; */
+    border-top: 1px solid white;
 }
 
 .container1 .mobile , .bill , .scanner {
     height: 344px;
     width: 612px;
     border-radius: 20px;
-    box-shadow: 10px 10px 30px black;
-    
+    box-shadow: 10px 10px 20px rgb(217, 53, 53);
+    color: rgb(12, 253, 32);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    opacity: .8;
 }
 
 .mobile{
-    background-image: url('../img/mobile.jpg');
+    background-image: url('/assets/img/mobile_recharge.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bill{
-    background-image: url('../img/bill_pays.jpg');
+    background-image: url('/assets/img/bill_pays.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* opacity: .7; */
 }
 
 .scanner{
-    background-image: url('../img/qr_scanner.jpg');
+    background-image: url('/assets/img/qr scanner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
