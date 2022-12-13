@@ -71,3 +71,7 @@
 #back_sign , input  {
     color: rgb(253, 83, 10);
 }
+
+#back_sign {
+    font-size: 20px;
+}
