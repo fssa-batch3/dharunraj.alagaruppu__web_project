@@ -26,19 +26,19 @@ body{
 }
 
 .mobile{
-    background-image: url('/assets/img/mobile_recharge.jpg');
+    background-image: url('../img/mobile_recharge.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bill{
-    background-image: url('/assets/img/bill_pays.jpg');
+    background-image: url('../img/bill_pays.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .scanner{
-    background-image: url('/assets/img/qr scanner.jpg');
+    background-image: url('../img/qr scanner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
