@@ -8,7 +8,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px solid black; */
     /* align-content: space-around; */
 }
 .container1 .personal , .home_loan , .gold {
