@@ -1,16 +1,17 @@
 .container1 {
-    height: 700px;
+    height: 1000px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container1 .mobile , .bill , .scanner {
-    height: 400px;
-    width: 400px;
+    height: 344px;
+    width: 612px;
     border-radius: 20px;
     box-shadow: 10px 10px 30px black;
-    opacity: 0.6;
+    
 }
 
 .mobile{
@@ -23,6 +24,7 @@
     background-image: url('../img/bill_pays.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    /* opacity: .7; */
 }
 
 .mobile{
