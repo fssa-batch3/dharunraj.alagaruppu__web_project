@@ -18,7 +18,7 @@ body{
 }
 
 .mobile{
-    background-image: url('../img/');
+    background-image: url('../img/mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -30,8 +30,8 @@ body{
     /* opacity: .7; */
 }
 
-.mobile{
-    background-image: url('../img/');
+.scanner{
+    background-image: url('../img/qr_scanner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
