@@ -51,7 +51,7 @@
     height: 70px;
     box-sizing: border-box;
     position: relative;
-    bottom: 10px;
+    bottom: 10px; 
     font-family: sans-serif;
 }
 
@@ -83,7 +83,7 @@
     }
 }
 
-#back,#back-fund {
+.back {
     box-sizing: border-box;
     height: 50px;
     width: 200px;
@@ -100,7 +100,7 @@
     font-family: cursive;
 }
 
-#back:hover,#back-fund:hover {
+.back:hover {
     background-color: #f08686;
     box-shadow: 10px 5px 10px black;
     height: 50px;

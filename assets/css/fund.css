@@ -7,11 +7,12 @@ body {
 }
 
 .full_fund {
-    /* background-image: url('../img/blue-yellow-watercolor-patterned-mobile-phone-wallpaper-template_53876-97597.webp');
-    background-repeat: no-repeat; */
-    background: linear-gradient(to top right,#C5D8D1,#EADCD7);
-    /* background-size: 1500px 1160px; */
-    /* color: black; */
+    background-image: url('../img/blue-yellow-watercolor-patterned-mobile-phone-wallpaper-template_53876-97597.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(to top right, #C5D8D1, #EADCD7); */
+    background-size: 1490px 1120px;
+    color: black;
     height: 1100px;
     width: 100%;
     display: flex;
@@ -20,7 +21,6 @@ body {
 }
 
 .container1 {
-    /* color: black; */
     background-blend-mode: overlay;
     height: 900px;
     margin: 0px 400px;
@@ -31,7 +31,6 @@ body {
     align-content: center;
     border-radius: 100px;
     box-shadow: 5px 5px 15px black;
-    /* border: 2px solid #eb0d0d; */
 
 }
 
@@ -46,14 +45,16 @@ body {
     margin: 50px auto 0px auto;
 }
 
-.full_form .selecter, .value {
+.full_form .selecter,
+.value {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     /* border: 2px solid black; */
 }
 
-input,select {
+input,
+select {
     padding: 8px;
     /* border: 1px solid black; */
 
@@ -66,7 +67,8 @@ input,select {
     text-align: center;
 }
 
-.container1 a , button{
+.container1 a,
+button {
     text-decoration: none;
     padding: 15px;
     border-radius: 10px;
@@ -83,9 +85,3 @@ input,select {
     justify-content: space-between;
     margin-top: -20px;
 }
-
-
-
-
-
-
