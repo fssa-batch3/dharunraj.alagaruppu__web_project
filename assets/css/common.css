@@ -83,7 +83,7 @@
     }
 }
 
-#back {
+#back,#back-fund {
     box-sizing: border-box;
     height: 50px;
     width: 200px;
@@ -100,7 +100,7 @@
     font-family: cursive;
 }
 
-#back:hover {
+#back:hover,#back-fund:hover {
     background-color: #f08686;
     box-shadow: 10px 5px 10px black;
     height: 50px;
