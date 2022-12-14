@@ -3,12 +3,23 @@
     padding: 0px;
 }
 
-body{
-    /* background-image: url('../img/account_background.jpg');
+body {
+    background-image: url('../img/account_background.jpg');
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     font-family: cursive;
-    background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
+    /* background: linear-gradient(to bottom right,#C5D8D1,#EADCD7); */
+}
+
+.heading {
+    font-size: 45px;
+    text-shadow: -1px -2px black;
+    color: #f08686;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    margin: 30px 50px 0px 0px;
 }
 
 .container1 {
@@ -25,6 +36,17 @@ body{
     flex-direction: row;
 }
 
+.content3 {
+    height: 408px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgb(7, 8, 8);
+    border-radius: 40px;
+    font-size: 20px;
+}
+
 .content3 .selecter,
 .value {
     display: flex;
@@ -39,17 +61,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.content3 {
-    height: 408px;
-    width: 500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 5px 5px 20px rgb(7, 8, 8);
-    border-radius: 40px;
-    font-size: 20px;
-}
-
 .content4 .selecter {
     width: 150px;
 }
@@ -62,15 +73,3 @@ body{
     border-radius: 40px;
     box-shadow: 5px 5px 20px rgb(7, 8, 8);
 }
-
-.heading{
-    font-size: 45px;
-    text-shadow: -1px -2px black;
-    color: #f08686;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    font-family: cursive;
-    margin: 30px 50px 0px 0px;
-}
-
