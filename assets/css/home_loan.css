@@ -1,9 +1,0 @@
-body{
-    background: linear-gradient(to bottom left ,#f64e06 ,#a6f40a );
-}
-.content2{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    font-size: 30px;
-}
