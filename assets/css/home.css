@@ -21,6 +21,7 @@
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgb(5, 5, 5);
     /* margin: 20px; */
+    background-repeat: no-repeat;
 }
 
 .container1 .account {
@@ -50,11 +51,6 @@
 
 .container1 .other {
     background-image: url('../img/other.jpg');
-}
-
-.container1 .account,.balance,.fund,.history,.loan,.other {
-
-    background-repeat: no-repeat;
 }
 
 .menu {

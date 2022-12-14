@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-content: space-around;
-    height: 600px;
+    /* height: 600px; */
     margin: 20px auto 0px auto;
 }
 
