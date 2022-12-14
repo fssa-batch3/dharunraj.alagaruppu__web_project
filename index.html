@@ -18,8 +18,8 @@
     <header class="header">
         <img src="assets/img/home_logo.png" alt="logo">
         <div class="nav">
-            <a id="button" href="index.html">Sign Up</a>
-            <a id="button" href="pages/login.html">Log In</a>
+            <a class="navication" href="index.html">Sign Up</a>
+            <a class="navication" href="../pages/login.html">Log In</a>
         </div>
 
     </header>
@@ -30,53 +30,59 @@
 
     <div class="container1">
 
-<!-- content1 start. All content are there -->
+        <!-- content1 start. All content are there -->
 
         <div class="content1">
-            <div class="welc">
+
+            <div class="welcome">
                 <h1>Welcome to Net Bliz</h1>
-                <h3>Sign Up</h3>
+                <p>Sign Up</p>
             </div>
-                <!-- *******  Form is start. It is have a selecter and value part. It is make a form type ******* -->
+            <!-- *******  Form is start. It is have a selecter and value part. form have one button used ******* -->
 
             <form action="pages/login.html">
+
                 <div class="form">
-                <div class="label">
-                    <label for="fname">First Name </label><br>
-                    <label for="lname" id="name">Last Name </label><br>
-                    <label for="dob" id="name">Date of birth</label><br>
-                    <label for="email" id="name">Email Id</label><br>
-                    <label for="password" id="name">Password</label><br>
-                    <label for="aadhar" id="name">Aadhar Number</label><br>
-                    <label for="pan" id="name">PAN Number</label><br>
+
+                    <div class="label">
+                        <label for="fname">First Name </label><br>
+                        <label for="lname">Last Name </label><br>
+                        <label for="dob">Date of birth</label><br>
+                        <label for="email">Email Id</label><br>
+                        <label for="password">Password</label><br>
+                        <label for="aadhar">Aadhar Number</label><br>
+                        <label for="pan">PAN Number</label><br>
+                    </div>
+
+                    <div class="input">
+                        <input type="text" id="fname" name="fname" placeholder="Mani dharun" maxlength="25"
+                            required><br>
+                        <input type="text" id="lname" name="lname" placeholder="A" min="1" required><br>
+                        <input type="date" id="dob" name="dob" required><br>
+                        <input type="email" id="email" name="email" placeholder="dharun23@gmail.com" required><br>
+                        <input type="password" id="password" name="password" placeholder="Enter your password"
+                            required><br>
+                        <input type="number" id="aadhar" name="aadhar" placeholder="Enter your Aadhar no." min="1"
+                            required><br>
+                        <input type="text" id="pan" name="pan" placeholder="Enter your PAN number" required><br>
+
+                    </div>
+
                 </div>
 
-                <div class="input">
-                    <input type="text" id="fname" name="fname" placeholder="Mani dharun" maxlength="25" required><br>
-                    <input type="text" id="lname" name="lname" placeholder="A" min="1" required><br>
-                    <input type="date" id="dob" name="dob" required><br>
-                    <input type="email" id="email" name="email" placeholder="dharun23@gmail.com" required><br>
-                    <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
-                    <input type="number" id="aadhar" name="aadhar" placeholder="1234 5678 9012" min="1" required><br>
-                    <input type="text" id="pan" name="pan" placeholder="SSSSS1123S" required><br>
+                <button class="submit">Submit</button>
 
-                </div>
-
-            </div>
-
-                <button id="submit">Submit</button>
-                
             </form>
 
             <!-- ******** form end *************** -->
 
         </div>
-<!-- content1 end . All content are finished -->
+        <!-- content1 end . All content are finished -->
 
 
     </div>
 
-<!-- container1 end -->
+    <!-- container1 end -->
 
 </body>
 

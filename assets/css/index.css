@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+.header img {
+    height: 50px;
+}
+
 .header {
     background-color: rgb(246, 244, 244);
     display: flex;
@@ -23,7 +27,7 @@
     justify-content: space-around;
 }
 
-#button , #submit {
+.navication , .submit {
     box-sizing: border-box;
     height: 40px;
     text-decoration: none;
@@ -34,7 +38,7 @@
     background-color: white;
 }
 
-#button:hover , #submit:hover {
+.navication:hover , .submit:hover {
     background-color: #fecf00;
     box-shadow: 1px 5px 10px rgb(13, 13, 14);
     height: 40px;
@@ -43,28 +47,9 @@
     bottom: 10px; 
 }
 
-#submit{
-    margin-left: 200px;
-}
-
-.header img {
-    height: 50px;
-}
-
-.container1 .content1 {
-    width: 30%;
-    background-image: url('../img/sign_up_background.webp');
-    background-size: cover;
-    box-shadow: 5px 5px 10px rgb(251, 250, 255);
-    height: 520px;
-    border-radius: 20px;
-    
-
-}
-
 .container1 {
     width: 100%;
-    height: 800px;
+    height: 771px;
     background-image: url('../img/sign_up_background.webp');
     background-size: cover;
     display: flex;
@@ -73,30 +58,64 @@
     color: rgb(255, 252, 251);
 }
 
-.container1 .welc {
+.container1 .content1 {
+    width: 35%;
+    background-image: url('../img/sign_up_background.webp');
+    background-size: cover;
+    box-shadow: 5px 5px 10px rgb(251, 250, 255);
+    height: 650px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.container1 .content1 .welcome {
     text-align: center;
-    padding: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container1 .welcome p{
+    font-size: 20px;
 }
 .container1 .form {
     display: flex;
     justify-content: space-around;
-    width: 400px;
-    height: 360px;
-    margin: auto;
+    width: 500px;
+    height: 440px;
+    padding-top: 20px;
 }
 
-.container1 input {
+.container1 .form .label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(251, 249, 249);
+    font-size: 22px;
+}
+ 
+ .container1 .form .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.container1 input{
     padding: 10px;
-    margin-top: 12px;
     border-radius: 20px;
     border: 0px;
 }
 
-label {
-    line-height: 50px;
-    color: rgb(251, 249, 249);
-}
-
 #dob {
     width: 162px;
+}
+
+.submit{
+     margin: 20px 200px ; 
+     font-size: 20px;
 }
