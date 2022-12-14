@@ -13,35 +13,38 @@
 <body>
 
     <div class="container1">
+
         <div class="content1">
 
-
-                <!-- *******  Form is start. It is have a selecter and value part. It is make a form type ******* -->
-
+            <!-- *******  Form is start. It is have a selecter and value part. whatever input should have one label complesary ******* -->
             <div class="form" method="get">
-                <form action="../pages/home.html" >
+
+                <form action="../pages/home.html">
+
                     <img src="../assets/img/user-male-circle.png" alt="logo">
 
-                    <div>
-                        <input type="uname" id="uname" name="uname" placeholder="User name" required> 
-                    </div>
+                    <label for="uname"></label>
+                    <input type="text" id="uname" name="uname" placeholder="User name" required>
 
-                    <div>
-                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                    </div>
-                    <div id="name">
-                        <input type="text" id="captcha" name="captcha" placeholder="Enter your captcha" required>
-                    </div>
+
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                    <label for="captcha"></label>
+                    <input type="text" id="captcha" name="captcha" placeholder="Enter your captcha" required>
+
 
                     <img src="../assets/img/captcha.png" alt="captcha">
 
                     <div>
+                        <label for="check">.</label>
                         <input type="checkbox" id="check" name="check" required>I accect all Terms & Conditions
                     </div>
-                    <div class="input">
-                        <button id="button">LogIn</button>
-                        <input type="reset" id="button">
 
+
+                    <div class="input">
+                        <button class="button">LogIn</button>
+                        <input class="button" type="reset">
                     </div>
 
                     <a id="back_sign" href="../index.html">Back to sign up ?</a>
@@ -55,6 +58,8 @@
 
 
     </div>
+
+    <!--************ container1 end ***********-->
 
 
 </body>
