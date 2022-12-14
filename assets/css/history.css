@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 1500px;
-    font-family: 'Arial Narrow';
+    font-family: sans-serif;
 }
 
 .full_history{
