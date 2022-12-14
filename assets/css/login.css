@@ -2,6 +2,7 @@
      background-image: url('../img/login_background.jpg');
      background-size: cover;
      background-repeat: no-repeat;
+     /* background-color: rgba(4, 4, 4, 0.1); */
  }
 
  img {
