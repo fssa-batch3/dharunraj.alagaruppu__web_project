@@ -185,19 +185,18 @@ footer #logo{
 }
 
 .tick_container1{
-    /* display: flex;
-    flex-direction: column; */
-    border: 2px solid black;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
     height: 791px;
 }
 .tick{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     height: 700px;
     width: 800px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border: 2px solid black;
 }
