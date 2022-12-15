@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+/* 
+body{
+    background-image: url('../img/sign_up.jpg');
+    background-size: 900px 700px;
+} */
 
 .header img {
     height: 50px;
