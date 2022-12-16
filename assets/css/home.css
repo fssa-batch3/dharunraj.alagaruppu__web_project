@@ -1,6 +1,8 @@
 .container1 {
     height: 1200px;
     background-image: url('../img/back_con.webp');
+    background-color: rgb(254, 252, 252);
+    background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
