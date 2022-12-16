@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: cursive;
-    background: linear-gradient(to bottom right ,#EADCD7 , #C5D8D1);
+    background-image: linear-gradient(to bottom right ,rgb(234, 220, 215) , rgb(197, 216, 209));
     /* background: linear-gradient(to bottom right,#C5D8D1,#EADCD7); */
     
 }
@@ -35,7 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: linear-gradient(to bottom right ,#EADCD7 , #C5D8D1);
+    /* background: linear-gradient(to bottom right ,#EADCD7 , #C5D8D1); */
 }
 
 .container1 .content4,
