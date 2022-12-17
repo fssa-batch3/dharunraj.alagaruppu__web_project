@@ -1,0 +1,74 @@
+body {
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+/* The white page division */
+.full_fund {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1490px 1120px;
+    color: black;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b3c3d6;
+}
+
+/* its have space between form and full white color screen */
+.container1 {
+    background-blend-mode: overlay;
+    height: 900px;
+    margin: 0px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: 5px 5px 15px black;
+    background-color: white;
+
+}
+
+/* this is full form style */
+.container1 .full_form {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 580px;
+    margin: 10px auto 0px auto;
+}
+
+.full_form .selecter,
+.value {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input,
+select {
+    padding: 8px;
+}
+
+/* last button */
+#button {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container2 {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}

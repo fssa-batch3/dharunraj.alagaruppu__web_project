@@ -1,0 +1,71 @@
+body{
+    font-size: 20px;
+    font-family: cursive;
+  background-color: rgb(219, 219, 241);
+}
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 30px;
+}
+
+.full_container{
+    height: 1000px;
+}
+
+.container1{
+    width: 45%;
+    height: 800px;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px black;
+    background-color: white;
+}
+.container1 .full_form {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 20px auto 0px auto;
+   
+}
+
+.full_form .selecter,
+.value {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* input style */
+input{
+    padding: 8px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+/* salary style */
+.salary{
+    width: 110%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* finish button */
+.end_button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.end_button button{
+    font-family: cursive;
+}
+
+
