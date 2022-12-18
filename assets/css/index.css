@@ -137,14 +137,9 @@ body {
 }
 
 /* submit button decoration */
-
 .submit {
     margin: 20px 200px;
     font-size: 20px;
-}
-
-/* submit button style */
-.submit {
     color: black;
     font-size: 18px;
     margin-top: 15px;
