@@ -8,7 +8,7 @@ problem_statment : https://docs.google.com/document/d/1O-N3KiIUs-42T928_0TX2HEOv
 
 market_research : https://docs.google.com/document/d/1CaE9itDPWqdQ8WiZQreDZoGc6lRPKofui3n7pDx3y64/edit
 
-github_link : https://github.com/Dharun-069/Net_Bliz.git
+github_link : https://github.com/fssa-batch3/dharunraj.alagaruppu__web_project
 
 github_live_server_link : https://fssa-batch3.github.io/dharunraj.alagaruppu__web_project/
 
