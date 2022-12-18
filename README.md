@@ -10,7 +10,7 @@ market_research : https://docs.google.com/document/d/1CaE9itDPWqdQ8WiZQreDZoGc6l
 
 github_link : https://github.com/Dharun-069/Net_Bliz.git
 
-github_live_server_link : https://dharun-069.github.io/Net_Bliz/
+github_live_server_link : https://fssa-batch3.github.io/dharunraj.alagaruppu__web_project/
 
 wire_frame link :  https://drive.google.com/file/d/1x31sYbJsWHH30PfWAZQtaoGX1OkrXK2o/view?usp=sharing
 
