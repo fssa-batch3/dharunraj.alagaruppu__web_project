@@ -42,6 +42,8 @@ body{
 
 #name_nb{
     width: 30px; 
+    margin: 0px 20px;
+    border-radius: 5px;
 }
 
 h2 {
