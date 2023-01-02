@@ -1,7 +1,6 @@
 body{
-    background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
-    /* background-color: rgba(249, 6, 249, 0.1); */
     font-family: cursive;
+    background-color: #eeeef3;
 }
 .container1{
     height: 1200px;
@@ -9,7 +8,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* align-content: space-around; */
 }
 .container1 .personal , .home_loan , .gold {
 
@@ -17,18 +15,19 @@ body{
     width: 612px;
     border-radius: 30px;
     box-shadow: 10px 10px 30px black ;
-    /* margin: 20px; */
 }
 
+
+/* personal loan image style */
 .container1 .personal{
     background-image: url('../img/personal_loan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* color: #b23f3f; */
     color: rgb(60, 185, 60);
     text-shadow: 2px -2px rgb(18, 18, 18);
 }
 
+/* home loan image style */
 .container1 .home_loan{
     background-image: url('../img/home_loan.jpg');
     background-size: cover;
@@ -37,6 +36,8 @@ body{
     
 }
 
+
+/* gold loan decoration */
 .container1 .gold{
     background-image: url('../img/gold_loan.jpg');
     background-size: cover;

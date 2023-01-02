@@ -1,10 +1,8 @@
+
+
 .container1 {
     height: 1200px;
-    background-image: url('../img/back_con.webp');
-    background-color: rgb(254, 252, 252);
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #e1e4ee;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -12,6 +10,7 @@
     font-family: cursive;
 }
 
+/* container1 have a 6 image on this image size  */
 .container1 img {
     width: 80px;
 }
@@ -20,12 +19,13 @@
     text-decoration: none;
 }
 
+/* its have a division .this is our style */
 .container1 .account,.fund,.balance,.history,.loan ,.other {
 
-    height: 400px;
+    height: 380px;
     width: 400px;
     border-radius: 20px;
-    box-shadow: 10px 10px 20px rgb(5, 5, 5);
+    box-shadow: 5px  5px 10px rgb(5, 5, 5);
     background-repeat: no-repeat;
 }
 
@@ -65,19 +65,30 @@
     text-align: center;
 }
 
+/* this style have a image hover */
  .container1 .menu:hover {
     transform: translateY(-15px);
-    transition: 0.8s;
-    box-shadow: 5px 5px 10px rgb(252, 251, 251);
+    transition: 0.6s;
+    box-shadow:  -1px -1px 10px rgb(44, 31, 31);
 }
 
-
-
+/* all h1 tag size and style */
 .menu h1 {
-    text-shadow: 2.5px -1px rgb(244, 8, 193);
+    text-shadow: -2px -2px 10px #e1e4ee;
     margin-bottom: 5px;
     font-size: 40px;
     font-weight: 900;
     color: whitesmoke;
 
+}
+
+@media only screen and (max-width:400px){
+    .nav {
+        display: none;
+        visibility: hidden;
+    }
+
+    .container1{
+        
+    }
 }

@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
+    background-color: #b3c3d6;
 }
 .container1 {
     height: 1000px;
@@ -7,7 +7,6 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /* border-bottom: 1px solid white; */
     border-top: 1px solid white;
 }
 
@@ -15,16 +14,19 @@ body{
     height: 344px;
     width: 612px;
     border-radius: 20px;
-    box-shadow: 10px 10px 20px rgb(17, 17, 17);
-    color: rgb(237, 52, 11);
+    box-shadow: -1px -1px 10px rgb(17, 17, 17);
+    text-shadow: -2px -2px 10px #e1e4ee;
     font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 20px;
-    opacity: .8;
+    opacity: .9;
+    color: white;
 }
 
+
+/* image decorations */
 .mobile{
     background-image: url('../img/mobile_recharge.jpg');
     background-size: cover;
@@ -42,3 +44,5 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* image decoration end */

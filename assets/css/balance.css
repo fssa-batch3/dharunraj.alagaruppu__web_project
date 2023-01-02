@@ -1,12 +1,16 @@
 body{
     font-family: sans-serif;
-    background: linear-gradient(to bottom right,#C5D8D1,#EADCD7);
+    background-color: #e1e4ee;
 }
+
+/* bank name  */
 .content1 .bank_name{
     display: flex;
     align-items: center;
 
 }
+
+/* full division is mension by .container1 */
 .container1{
     height: 750px;
     width: 100%;
@@ -20,6 +24,8 @@ body{
     width: 100%;
     align-items: center;
 }
+
+/* the tick image style */
 #tick{
     width: 200px;
     animation-name: tick;
@@ -27,33 +33,26 @@ body{
     animation-fill-mode: both;
     animation-iteration-count: infinite;
 }
+
+/* tick image animation */
 @keyframes tick{
     0%{transform: scale(1,1);}
     50%{transform: scale(1.5,1.5);}
 }
+
 #name_nb{
     width: 50px; 
 }
+
 h2 {
     font-size: 40px;
 }
 
-/* .back_home{
-    width: 60%;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 20px;
-} */
 p{
     font-size: 25px;
 }
 
-/* #back{
-    margin: 50px auto ;
-} */
-
+/* back button alignment style code */
 .back{
     margin: 0px auto 30px auto;
     margin: 50px auto;

@@ -6,22 +6,21 @@ body {
     width: 100%;
 }
 
+/* The white page division */
 .full_fund {
-    /* background-image: url('../img/blue-yellow-watercolor-patterned-mobile-phone-wallpaper-template_53876-97597.webp'); */
-    /* background-image: linear-gradient(to top left, rgb(48, 134, 226), #ffffff); */
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: linear-gradient(to top right, #C5D8D1, #EADCD7); */
     background-size: 1490px 1120px;
     color: black;
-    height: 1100px;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #9fc9f3;
+    background-color: #b3c3d6;
 }
 
+/* its have space between form and full white color screen */
 .container1 {
     background-blend-mode: overlay;
     height: 900px;
@@ -30,13 +29,13 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
     border-radius: 100px;
     box-shadow: 5px 5px 15px black;
     background-color: white;
 
 }
 
+/* this is full form style */
 .container1 .full_form {
     width: 65%;
     display: flex;
@@ -44,8 +43,7 @@ body {
     justify-content: space-between;
     align-content: space-between;
     height: 580px;
-    /* border: 2px solid red; */
-    margin: 50px auto 0px auto;
+    margin: 10px auto 0px auto;
 }
 
 .full_form .selecter,
@@ -53,32 +51,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* border: 2px solid black; */
 }
 
 input,
 select {
     padding: 8px;
-    /* border: 1px solid black; */
-
 }
 
+/* last button */
 #button {
     width: 80%;
     display: flex;
     justify-content: space-around;
     text-align: center;
-}
-
-.container1 a,
-button {
-    text-decoration: none;
-    padding: 15px;
-    border-radius: 10px;
-    width: 150px;
-    color: black;
-    font-size: 25px;
-
 }
 
 .container2 {

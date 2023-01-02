@@ -1,186 +1,142 @@
+/* full page is mensioned by * */
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* All page imput box and select box style */
+input,
+select {
+    border-radius: 20px;
+    border: 0.8px solid black;
+    box-shadow: 1px 1px 3px black;
+}
+
+
+/* All page input type radio only style */
+input[type="radio"] {
+    transform: scale(1.2 1.2);
+    box-shadow: none;
+}
+
+/* All page header style */
 .header {
-    background-color: #322238;
+    background-color: #e1e4ee;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
-    box-shadow: 0px 1px 30px #e6e6f0;
+    height: 90px;
     position: sticky;
     top: 0px;
     width: 100%;
     z-index: 5;
     font-family: cursive;
+    font-size: 20px;
+    box-shadow: 5px 8px 10px gray;
+
 }
 
+/* All page logo */
 .header img {
-    height: 80px;
+    height: 60px;
 }
 
+/* All page navigation bar in header */
 .nav {
-    height: 150px;
+    height: 70px;
     width: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-family: cursive;
+    text-align: center;
+    /* display: none; */
+    /* border: 2px solid black; */
+
 }
 
-.button {
+/* All page navigation a tag style */
+.nav a {
     box-sizing: border-box;
-    height: 70px;
-    width: 120px;
     text-decoration: none;
-    color: white;
     padding: 15px;
-    font-weight: 1000;
-    font-size: large;
-    border-radius: 20px;
     font-family: cursive;
+    text-align: center;
+    color: black;
+    position: relative;
 }
 
+/* All page button and button1 class hover  */
 .button:hover,
 .button1 {
-    box-shadow: 5px 5px 10px white;
-    background-color: #e4143e;
-    border: 2px solid white;
-    height: 70px;
+    border-bottom: 3px solid black;
+    font-size: 21px;
     box-sizing: border-box;
-    position: relative;
-    bottom: 10px; 
-    font-family: sans-serif;
+    transition: .1s;
 }
 
+/* All page the second black area style */
 .content2 {
     height: 50px;
     width: 100%;
     text-align: center;
-    padding-top: 40px;
+    padding: 20px 0;
     background-color: black;
     color: white;
-    animation-name: change;
+    /* animation-name: change;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
     font-size: 30px;
     font-family: cursive;
 }
 
-@keyframes change {
+/* @keyframes change {
     0% {
-        color: #fc7012;
+        color:grey;
     }
 
     50% {
-        color: cyan;
+        color: white;
     }
 
     80% {
-        color: rgb(25, 251, 25);
+        color: gray;
     }
-}
+} */
 
+/* All page have back button.its our style */
 .back {
     box-sizing: border-box;
-    height: 50px;
-    width: 200px;
     text-decoration: none;
     border: 1px solid black;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 20px;
+    width: auto;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
     background-color: white;
     color: #0a0a0a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-family: cursive;
 }
 
+/* All page back button hover */
 .back:hover {
-    background-color: #f08686;
-    box-shadow: 10px 5px 10px black;
-    height: 50px;
+    width: auto;
+    background-color: #e1e4ee;
+    box-shadow: 5px 5px 5px black;
     box-sizing: border-box;
-    color: white;
+    color: rgb(6, 6, 6);
 }
 
-footer{
-    height: 600px;
-    background-color: black;
-    color: white;
-    margin-top: -23px;
+/* All page back button */
+.back_to_home {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 15px;
-
-}
-footer .footer_content1{
-    width: 1000px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: center;
-    margin: 10px auto;
-    text-align: center;
-}
-
-footer .footer_content3{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-footer .about{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.footer_about{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-footer #icon{
-    width: 50px;
-}
-
-footer .about_us{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 }
 
-footer h2{
-    text-align: center;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-footer h3{
-    text-decoration:underline;
-}
-
-footer #logo{
-    margin: 10px auto;
-    width: 300px;
-
-}
-
-.tick_container1{
+/* whenever have tick video on this style  */
+.tick_container1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,11 +145,13 @@ footer #logo{
     font-family: cursive;
 
 }
+
+/* tick style */
 .tick {
     display: flex;
     flex-direction: column;
     height: 750px;
-    width: 700px;
+    width: 560px;
     justify-content: space-around;
     align-items: center;
     border: 2px solid black;
@@ -204,7 +162,114 @@ footer #logo{
     font-size: 20px;
     text-align: center;
 }
-.tick_video video{
+
+/* All page tick video edit */
+.tick_video video {
     width: 350px;
     pointer-events: none;
+}
+
+/* All page have a footer on this footer style */
+footer {
+    height: 530px;
+    background-color: black;
+    color: white;
+    margin-top: -23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* about us */
+footer .footer_content1 {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* some word about netbliz */
+footer .footer_content3 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+footer .about {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* footer icon size */
+footer #icon {
+    width: 30px;
+}
+
+footer .about_us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+
+/* All footer page have a tag on this style */
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+All page
+footer h3 {
+    text-decoration: underline;
+}
+
+/* All page logo style */
+footer #logo {
+    margin: 10px auto;
+    width: 300px;
+
+}
+@media only screen and (max-width:400px){
+    .nav{
+        display: none;
+        visibility: hidden; 
+    }
+    .header{
+        width: 1000px;
+    }
+    .content2{
+        width: 1000px;
+    }
+    .container1{
+        height: 100%;
+        margin-left: 125%;
+        display: flex;
+        gap: 20px;
+    }
+    footer{
+        margin-top: 50px;
+        width: 1000px;
+    }
 }

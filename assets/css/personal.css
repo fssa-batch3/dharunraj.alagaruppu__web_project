@@ -1,7 +1,7 @@
 body{
     font-size: 20px;
     font-family: cursive;
-    background: linear-gradient(to bottom right ,#EADCD7 , #C5D8D1);
+  background-color: rgb(219, 219, 241);
 }
 .content2{
     display: flex;
@@ -15,8 +15,7 @@ body{
 }
 
 .container1{
-    border: 1px solid rgb(237, 18, 18);
-    width: 60%;
+    width: 45%;
     height: 800px;
     margin: 50px auto 0px auto;
     display: flex;
@@ -24,6 +23,8 @@ body{
     align-content: space-around;
     justify-content: space-around;
     border-radius: 50px;
+    box-shadow: 5px 5px 15px black;
+    background-color: white;
 }
 .container1 .full_form {
     width: 80%;
@@ -31,8 +32,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-content: space-around;
-    /* height: 600px; */
     margin: 20px auto 0px auto;
+   
 }
 
 .full_form .selecter,
@@ -42,12 +43,14 @@ body{
     justify-content: space-around;
 }
 
+/* input style */
 input{
     padding: 8px;
     height: 25px;
     border: 1px solid black;
 }
 
+/* salary style */
 .salary{
     width: 110%;
     display: flex;
@@ -55,9 +58,10 @@ input{
     align-items: center;
 }
 
+/* finish button */
 .end_button{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .end_button button{
