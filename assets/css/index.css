@@ -15,7 +15,7 @@ body {
 /* header start */
 
 .header img {
-    height: 40px;
+    height: 60px;
 }
 
 .header {
@@ -162,3 +162,7 @@ body {
     box-shadow: 1px 1px 5px;
     border: 0px;
 }
+/* @media screen and (max-width:450px){
+    
+    
+} */
