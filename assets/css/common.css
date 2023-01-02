@@ -21,6 +21,22 @@ input[type="radio"] {
 }
 
 /* All page header style */
+/* All page imput box and select box style */
+input,
+select {
+    border-radius: 20px;
+    border: 0.8px solid black;
+    box-shadow: 1px 1px 3px black;
+}
+
+
+/* All page input type radio only style */
+input[type="radio"] {
+    transform: scale(1.2 1.2);
+    box-shadow: none;
+}
+
+/* All page header style */
 .header {
     background-color: #e1e4ee;
     display: flex;

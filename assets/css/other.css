@@ -1,5 +1,6 @@
 body{
     background-color: #b3c3d6;
+    background-color: #b3c3d6;
 }
 .container1 {
     height: 1000px;
@@ -27,6 +28,8 @@ body{
 
 
 /* image decorations */
+
+/* image decorations */
 .mobile{
     background-image: url('../img/mobile_recharge.jpg');
     background-size: cover;
@@ -44,5 +47,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* image decoration end */
 
 /* image decoration end */
