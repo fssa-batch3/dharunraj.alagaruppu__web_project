@@ -115,3 +115,14 @@ form label:nth-of-type(3) input{
     background-color:#b2d6d6;
     box-shadow: 1px 1px 5px black;
  }
+
+ /* media start */
+
+ @media screen  and (max-width: 600px) {
+
+    .container1 .form{
+        width: 80%;
+
+    }
+    
+ }
