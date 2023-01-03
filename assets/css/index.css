@@ -10,23 +10,25 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
+    overflow: hidden;
 }
 
 /* header start */
 
 .header img {
     height: 60px;
+    /* border: 1px solid black; */
 }
 
 .header {
     height: 80px;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0px;
-
+    margin: 0px auto;
 }
 
 /* .navication start */
@@ -34,11 +36,14 @@ body {
 /* .navication start */
 
 .nav {
-    height: 40px;
-    width: 300px;
+    /* height: 40px;
+    width: 300px; */
+    height: 100%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* border: 1px solid black; */
 }
 
 .navication {
@@ -72,6 +77,7 @@ body {
 /* full page name is called by container1  */
 .container1 {
     height: 771px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +108,7 @@ body {
     justify-content: space-evenly;
 }
 
-.container1 .welcome p  {
+.container1 .welcome p {
     font-size: 20px;
 }
 
@@ -114,19 +120,23 @@ body {
     /* width: 500px;
     height: 440px; */
     padding-top: 20px;
+    /* border: 1px solid black; */
 }
 
 .container1 .form .label {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 22px;
+    font-size: 20px;
+    /* border: 1px solid black; */
 }
 
 .container1 .form .input {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    align-content: space-between;
+    /* border: 1px solid black; */
 }
 
 
@@ -135,7 +145,7 @@ body {
     padding: 10px;
     border-radius: 20px;
     border: 0.8px solid black;
-    box-shadow: 1px 1px 3px;
+    box-shadow: 1px 1px 0.1px;
 }
 
 #dob {
@@ -161,10 +171,18 @@ body {
     box-shadow: 1px 1px 5px;
     border: 0px;
 }
-@media screen and (max-width:550px){
-    body{
-        overflow: hidden;
+/* @media screen  and (max-width:350px){
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
+
+} */
+
+@media screen and (max-width:550px) {
+   
     .header {
         height: 80px;
         width: 100%;
@@ -173,8 +191,15 @@ body {
         align-items: center;
         position: sticky;
         top: 0px;
-    
+
     }
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
     .container1 .content1 {
         height: 580px;
         width: 92%;
@@ -185,12 +210,28 @@ body {
         justify-content: space-around;
         box-shadow: 0.1px 0.1px 10px;
     }
+
+
+
     .submit {
         margin: 20px 130px;
         font-size: 20px;
     }
-    
-    
 
-    
+    .header img {
+        height: 41px;
+    }
+
+    .nav {
+        height: 100%;
+        width: 51%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* border: 1px solid black; */
+    }
+
+
+
+
 }
