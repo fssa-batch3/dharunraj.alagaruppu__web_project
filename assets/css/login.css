@@ -118,7 +118,7 @@ form label:nth-of-type(3) input{
 
  /* media start */
 
- @media screen  and (max-width: 600px) {
+ @media screen  and (max-width: 480px) {
 
     .container1 .form{
         width: 80%;
