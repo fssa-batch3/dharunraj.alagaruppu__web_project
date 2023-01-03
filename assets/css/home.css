@@ -127,8 +127,8 @@
     /* its have a division .this is our style */
     .container1 .account,.fund,.balance,.history,.loan ,.other {
 
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         border-radius: 20px;
         box-shadow: 5px  5px 10px rgb(5, 5, 5);
         box-shadow: 5px  5px 10px rgb(5, 5, 5);

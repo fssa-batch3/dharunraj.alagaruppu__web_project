@@ -274,7 +274,7 @@ footer #logo {
     footer{
        position: relative;
        top: 100px;
-       height: 800px;
+       height: 1000px;
         width: 1000px;
         display: flex;
         flex-direction: column;
@@ -306,7 +306,12 @@ footer #logo {
      justify-content: space-around;
      /* align-items: center; */
    }
-   #logo{
+   /* #logo{
     display: none;
-   }
+   } */
+   footer #logo {
+    margin: 10px;
+    width: 300px;
+
+}
 }
