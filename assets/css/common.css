@@ -268,6 +268,28 @@ footer #logo {
 
 }
 @media only screen and (max-width:480px){
+
+    /* All page header style */
+.header {
+    background-color: #e1e4ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 5;
+    font-family: cursive;
+    font-size: 20px;
+    box-shadow: 5px 8px 10px gray;
+
+}
+
+.header img {
+    height: 50px;
+}
+
     .nav{
         display: none;
     }
