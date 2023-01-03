@@ -181,7 +181,7 @@ body {
 
 } */
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
    
     .header {
         height: 80px;
@@ -210,9 +210,6 @@ body {
         justify-content: space-around;
         box-shadow: 0.1px 0.1px 10px;
     }
-
-
-
     .submit {
         margin: 20px 130px;
         font-size: 20px;
@@ -230,8 +227,8 @@ body {
         justify-content: space-around;
         /* border: 1px solid black; */
     }
-
-
-
+h1{
+    font-size: 20px;
+}
 
 }
