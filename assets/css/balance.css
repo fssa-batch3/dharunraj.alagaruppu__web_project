@@ -46,7 +46,7 @@ body{
     border-radius: 5px;
 }
 
-h2 {
+.content1 h2 {
     font-size: 40px;
 }
 
@@ -58,4 +58,23 @@ p{
 .back{
     margin: 0px auto 30px auto;
     margin: 50px auto;
+}
+
+@media only screen and (max-width:480px){
+    *{
+        overflow-x: hidden;
+    } 
+
+    #tick{
+        width: 150px;
+        animation-name: tick;
+        animation-duration:3s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+    }
+
+
+    .content1 h1{
+    font-size: 27px;
+}    
 }
