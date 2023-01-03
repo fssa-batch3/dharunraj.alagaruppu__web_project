@@ -59,3 +59,77 @@ body{
     /* border: 2px solid black; */
     font-size: 50px;  
 }
+
+@media only screen and (max-width:480px) {
+
+    *{
+        overflow-x: hidden;
+    } 
+
+    body{
+        font-family: cursive;
+        background-color: #eeeef3;
+        
+    }
+    .container1{
+        height: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container1 .personal , .home_loan , .gold {
+    
+        height: 350px;
+        width: 430px;
+        background-size: cover;
+        border-radius: 30px;
+        box-shadow: 10px 10px 30px black ;
+    }
+    
+    
+    /* personal loan image style */
+    .container1 .personal{
+        background-image: url('../img/personal_loan.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(60, 185, 60);
+        text-shadow: 2px -2px rgb(18, 18, 18);
+    }
+    
+    /* home loan image style */
+    .container1 .home_loan{
+        background-image: url('../img/home_loan.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        
+    }
+    
+    
+    /* gold loan decoration */
+    .container1 .gold{
+        background-image: url('../img/gold_loan.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        text-shadow: -2px 3px black;
+        
+        
+    }
+    
+    .container1 a{
+        text-decoration: none;
+        height: 350px;
+        width: 450px;
+
+    }
+    .container1 h1{
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        /* border: 2px solid black; */
+        font-size: 50px;  
+    }
+}
