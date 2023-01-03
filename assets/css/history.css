@@ -66,7 +66,7 @@ input{
 
 
 #minus , #plus{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* inbetween dotted line */
@@ -76,5 +76,96 @@ input{
     margin: 20px auto;
 }
 
+@media only screen and (max-width:480px) {
+
+    
+    /* *{
+        overflow-x: hidden;
+    } */
+
+    body{
+        background-color: rgba(245, 242, 251, 0.956);
+        height: 1500px;
+        font-family: sans-serif;
+    }
+    
+    /* full page oof the history page */
+    .full_history{
+        height: 1000px;
+    }
+    
+    /* search_bar only */
+    .search_bar{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    
+    /* inputbox style */
+    input{
+        padding: 10px;
+        width: 230px;
+        height: 50px;
+    }
+    
+    /* it is bank icon style */
+    #bank_icon{
+        width: 50px;
+        border-radius: 100px;
+        box-shadow: 2px 2px 15px black;
+    }
+    
+    
+    .parent , .parent2{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+
+    }
+    
+    
+    #math{
+        width: 25px;
+        margin: 5px;
+    }
+    
+    
+    .parent .amount , .content1 , .amount1{
+        display: flex;
+        align-items: center;
+    }
+    
+    /* amount size */
+    .fund{
+        margin: 20px;
+    }
+    
+    /* minus font color */
+    .amount{
+        color: rgb(203, 20, 20);
+    }
+    
+    /* plus amount color */
+    .amount1{
+        color: rgb(8, 54, 8);  
+    }
+    
+    
+    #minus , #plus{
+        font-size: 15px;
+    }
+    
+    /* inbetween dotted line */
+    .history{
+        border-top: 2px dotted black;
+        width: 80%;
+        margin: 20px auto;
+    }
+.parent  h2 , .parent2 h2{
+    font-size: 18px;
+}
+
+    
+}
 
 
