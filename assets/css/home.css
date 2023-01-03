@@ -102,6 +102,10 @@
     .container1 img {
         width: 40px;
     }
+    .menufund img{
+        border-radius: 60px;
+
+    }
     .container1 {
         height: 100%;
         background-color: #e1e4ee;
@@ -195,6 +199,10 @@
     }
     footer{
         margin-top: 100px;
+    }
+
+    .container1 a{
+        border-radius: 20px;
     }
     
 }
