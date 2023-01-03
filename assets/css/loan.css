@@ -81,7 +81,7 @@ body{
     .container1 .personal , .home_loan , .gold {
     
         height: 350px;
-        width: 430px;
+        width: 400px;
         background-size: cover;
         border-radius: 30px;
         box-shadow: 10px 10px 30px black ;
@@ -121,7 +121,8 @@ body{
     .container1 a{
         text-decoration: none;
         height: 350px;
-        width: 450px;
+        width: 400px;
+        border-radius: 30px;
 
     }
     .container1 h1{
@@ -130,6 +131,6 @@ body{
         justify-content: center;
         align-items: flex-end;
         /* border: 2px solid black; */
-        font-size: 50px;  
+        font-size: 35px;  
     }
 }
