@@ -66,15 +66,24 @@ p{
     } 
 
     #tick{
-        width: 150px;
+        width: 170px;
         animation-name: tick;
         animation-duration:3s;
         animation-fill-mode: both;
         animation-iteration-count: infinite;
     }
 
-
+    .container1 .content1{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around; 
+        height: 500px;
+        width: 90% auto;
+        align-items: center;
+    }
+    
     .content1 h1{
-    font-size: 27px;
+    font-size: 23px;
 }    
 }
