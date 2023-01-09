@@ -67,16 +67,22 @@
 
         function login() {
 
-            const email = document.getElementById("uname").value
-            console.log (document.getElementById("uname").value)
+            const user_name = document.getElementById("user_name").value
+            console.log (document.getElementById("user_name").value)
+
 
             const password = document.getElementById("password").value
             console.log(document.getElementById("password").value)
 
-            window.location.href="../pages/home.html"
+
+            localStorage.setItem("user_name", user_name)
+            localStorage.setItem("user_password", password)
+
+            window.location.href="home.html"
+            
 
         }
-
+       
     </script>
 
 </body>
