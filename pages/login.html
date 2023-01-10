@@ -24,7 +24,7 @@
                 <img src="../assets/img/user-male-circle.png" alt="logo">
 
                 <label for="uname"></label>
-                <input type="text" id="uname" name="uname" placeholder="User name"
+                <input type="text" id="user_name" name="uname" placeholder="User name"
                     required>
 
 
@@ -68,11 +68,11 @@
         function login() {
 
             const user_name = document.getElementById("user_name").value
-            console.log (document.getElementById("user_name").value)
+            console.log ("user_name")
 
 
             const password = document.getElementById("password").value
-            console.log(document.getElementById("password").value)
+            console.log("password")
 
 
             localStorage.setItem("user_name", user_name)
