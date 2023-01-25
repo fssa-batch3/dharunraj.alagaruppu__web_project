@@ -24,13 +24,11 @@
                 <img src="../assets/img/user-male-circle.png" alt="logo">
 
                 <label for="uname"></label>
-                <input type="text" id="user_name" name="uname" placeholder="User name"
-                    required>
+                <input type="text" id="user_name" name="uname" placeholder="User name" required>
 
 
                 <label for="password"></label>
-                <input type="password" id="password" name="password" placeholder="Enter your password"
-                    required>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
 
 
@@ -68,7 +66,7 @@
         function login() {
 
             const user_name = document.getElementById("user_name").value
-            console.log ("user_name")
+            console.log("user_name")
 
 
             const password = document.getElementById("password").value
@@ -78,10 +76,10 @@
             localStorage.setItem("user_name", user_name)
             localStorage.setItem("user_password", password)
 
-            window.location.href="home.html"
-            
+            window.location.href = "home.html"
+
         }
-       
+
     </script>
 
 </body>
